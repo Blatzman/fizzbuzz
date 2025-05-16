@@ -7,11 +7,11 @@
 	 if (( i % 3 == 0 )) || (( i % 5 == 0 )); then
 		 # Assign a name based on divisibility
 		 if (( i % 3 == 0 )) && (( i % 5 == 0 )); then
-			 name="fizzbutt"
+			 name="fizzbuzz"
 		 elif (( i % 3 == 0 )); then
 			 name="fizz"
 		 else
-			 name="butt"
+			 name="buzz"
 		 fi
 		 # Print the number and its assigned name
 		  echo "$i: $name"
